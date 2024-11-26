@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "Bamboo",
+    "slug": "bamboo-amz",
+    "version": "3.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mau.bamboo",
+      "buildNumber": "1.9.2"
+    },
+    "android": {
+      "package": "com.maurocalle.bamboo",
+      "versionCode": 32
+    },
+    "notification": {
+      "icon": "./assets/notification.png",
+      "color": "#000000",
+      "androidMode": "default"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5ea1e898-e2f8-4f00-b24a-825695c6a1d8"
+      }
+    },
+    "owner": "maumaxxa",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/5ea1e898-e2f8-4f00-b24a-825695c6a1d8"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+# Expo related
+.expo/*
+.expo-shared/
+expo-cli.log
+
+# NPM debug files
+npm-debug.*
+
+# Yarn debug files
+yarn-debug.log*
+yarn-error.log*
+
+# iOS build directory
+ios/
+
+# Android build directory
+android/
+
+# Node modules directory
+node_modules/
+
+# Yarn cache
+yarn/cache/
+yarn.lock
+
+# Logs
+logs
+*.log
+
+# Build output
+dist/
+build/
+*.zip
+
+# OS specific files
+.DS_Store
+Thumbs.db
+*.apk
+# Environment files
+.env
+.env.local
+.env.*.local
